@@ -1,0 +1,98 @@
+html{
+    height: 100%;
+
+}
+
+body   {
+    background-color: #2F3035;
+    margin:0%;
+    background-image: url(images/dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+#logo   {
+    height: 118px;
+    z-index: 2;
+    margin: 5px;
+
+}
+.container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+        
+}
+
+header{
+    height: 128px;
+    text-align: center;
+    width: 1024px;
+}
+
+nav{
+    background-color: rgba(63, 61, 71, 0.5);
+    text-align: center;
+    padding: 10px;
+    
+}
+main{
+    height: 250px;
+    padding-top: 80px;
+    padding-right: 240px;
+    padding-left: 240px;
+}
+
+
+footer{
+    background-color: rgba(63, 61, 71, 0.5);
+    /*need to understand hot not to go out of content*/
+
+}
+
+h1{
+    font-size:84;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p   {
+        font-size:18px;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif; 
+}
+
+a   {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    font-size:15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(255, 0, 149);
+    font-size:18px;
+  }
+
+  footer p {
+      font-size: 10px;
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  .maps {
+      padding-bottom: 20px;
+  }
+
+  iframe{
+      margin: 20px;
+  }
